@@ -48,7 +48,7 @@ export default function Home() {
           />
           <div className={styles.thirteen}>
             <img
-              src="/thirteen.svg"
+              src={dir+'/public/thirteen.svg'}
               alt="13"
               width={40}
               height={31}
