@@ -1,8 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  basePath: '/tweetAnalyzeAI'
 }
 
-module.exports = {
-  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '/tweetAnalyzeAI',
-}
