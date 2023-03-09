@@ -4,5 +4,5 @@ const nextConfig = {
 }
 
 module.exports = {
-  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '/tweetAnalyzeAI/public',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '' : '/tweetAnalyzeAI',
 }
